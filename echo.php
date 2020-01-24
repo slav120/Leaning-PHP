@@ -17,4 +17,8 @@ echo "\n3. Learn to have \"fun\"";
 
 echo "one" . "two"; // Prints: onetwo
 echo "one " . "two"; // Prints: one two
+echo "one" . " " . "two" . " " . "three"; // Prints: one two three
+
+
+echo "Code" . "cademy";   //returns Codecademy 
 
