@@ -23,3 +23,19 @@ $color = "brown";
 
 echo "I have a " . $color . " dog named " . $dog_name . " and her favorite food is " . $favorite_food . ".";
 // Prints: I have a brown dog named Tadpole and her favorite food is salmon.
+
+
+$dog_name = "Tadpole";
+$favorite_food = "salmon";
+$color = "brown";
+
+echo "I have a $color dog named $dog_name and her favorite food is $favorite_food.";
+// Prints: I have a brown dog named Tadpole and her favorite food is salmon.
+
+
+$dog_name = "Tadpole";
+$favorite_food = "treat";
+$color = "brown";
+
+echo "I have a ${color}ish dog named $dog_name and her favorite food is ${favorite_food}s.";
+// Prints: I have a brownish dog named Tadpole and her favorite food is treats.
