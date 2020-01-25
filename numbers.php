@@ -58,3 +58,39 @@ $num_cookies = 27;
 $cookies_per_serving = 4;
 $leftover_cookies = $num_cookies % $cookies_per_serving;
 echo $leftover_cookies; // Prints: 3
+
+
+// Long syntax 
+$savings = 800;
+$bike_cost = 75;
+$savings = $savings - $bike_cost;
+echo $savings; // Prints: 725
+
+// Short syntax 
+$savings = 800;
+$bike_cost = 75;
+$savings -= $bike_cost;
+echo $savings; // Prints: 725
+
+
+$age = 89; 
+$age++;
+echo $age; // Prints: 90
+
+$days_til_vacation = 7; 
+$days_til_vacation--;
+echo $days_til_vacation; // Prints: 6
+
+<?php
+// Write your code below:
+
+$my_num = 50; 
+$answer = $my_num;
+$answer += 2; 
+$answer *= 2;
+$answer -= 2;
+$answer /= 2;
+$answer -= $my_num; 
+echo $answer; // Prints 1  
+  
+  
