@@ -41,3 +41,20 @@ $days_per_language = $days / $num_languages;
 echo $days_per_language; //Prints 44
 
 
+
+echo 4 ** 2; // Prints: 16
+echo 2.89 ** 3.2;  // Prints: 29.845104015297
+echo 10 ** -1; // Prints: 0.1
+
+  
+echo 94 - 4.25 + 7 - (23.50 + 23.50 * 0.20) + 20 / 4;  // prints 73.55
+
+
+// remainder modulo operator 
+echo 7 % 3; // Prints: 1
+
+
+$num_cookies = 27;
+$cookies_per_serving = 4;
+$leftover_cookies = $num_cookies % $cookies_per_serving;
+echo $leftover_cookies; // Prints: 3
