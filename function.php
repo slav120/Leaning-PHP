@@ -119,7 +119,7 @@ convertToQuestion($string_three);
 echo $string_one;
 echo $string_two;
 echo $string_three;
-// prints        Do you think you have teeth?
+// prints  Do you think you have teeth?
 // Do you think toads are nice?
 // Do you think brown is my favorite color?
 
