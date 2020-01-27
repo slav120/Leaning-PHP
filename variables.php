@@ -1,6 +1,5 @@
 <?php
 
-<?php
 // Write your code below:
 
 // Variables alaways start with $ always use snake case  

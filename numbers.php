@@ -81,7 +81,7 @@ $days_til_vacation = 7;
 $days_til_vacation--;
 echo $days_til_vacation; // Prints: 6
 
-<?php
+
 // Write your code below:
 
 $my_num = 50; 

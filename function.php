@@ -54,7 +54,7 @@ echo repeatThreeTimes("wow");
 echo increaseEnthusiasm(repeatThreeTimes("hai"));
 // prints oh!wowwowwowhaihaihai!
 
-<?php
+
 // Write your code below:
 function calculateArea($height, $width) 
 {
