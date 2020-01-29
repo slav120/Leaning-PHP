@@ -59,3 +59,7 @@ $d = "*~*";
 
 // Write your code below:
 echo str_pad($b, $a, $d, $c); // *~**~**~*You did it!*~**~**~*
+
+
+convertToShout("woah there, buddy") // WOAH THERE, BUDDY ! 
+convertToShout("hello there") // HELLO THERE ! 
