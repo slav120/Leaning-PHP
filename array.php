@@ -20,4 +20,7 @@ print_r($number_array) // returns
                       // [2] => nono
 
       
-echo implode(", ", $number_array);  // returns hello, dear, nono                      
+echo implode(", ", $number_array);  // returns hello, dear, nono
+
+
+echo $number_array[0] // returns the element at position 0 withc is hello 
