@@ -33,3 +33,5 @@ $number_array[] = 'klm'; // this will just add to our array, so position 3 is ad
 
 array_pop($number_array); // removes the last element of the array 
 array_push($number_array, 'yoyo', 'nooo', 'blue'); // add these elements at the end of the array
+array_shift($number_array); // removes the first element of your array and returns it 
+array_unshift($number_array, 'pizza', 'letuce', 'tomato'); // adds these elements to the begining of your array 
